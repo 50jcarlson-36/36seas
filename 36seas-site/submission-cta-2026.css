@@ -1,0 +1,62 @@
+/* Submission call-to-action and publishing-section refinements. */
+.site-header nav .nav-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: .75rem;
+  min-height: 44px;
+  padding: 0 18px;
+  background: var(--red);
+  border: 1px solid #ed3037;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 8px 28px rgba(200, 16, 24, .22);
+  transition: background .2s, border-color .2s, transform .2s, box-shadow .2s;
+}
+.site-header nav .nav-submit:hover,
+.site-header nav .nav-submit:focus-visible {
+  background: #ed1821;
+  border-color: #ff656b;
+  box-shadow: 0 10px 34px rgba(200, 16, 24, .38);
+  transform: translateY(-2px);
+}
+.site-header nav .nav-submit span {font-size: 1rem;line-height: 1}
+
+.publishing-head > p:last-child,
+.publishing-pillars p,
+.inquiry-band > p {color: #c9c4bb}
+.publishing-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: clamp(46px, 6vw, 76px);
+  background: rgba(199, 154, 85, .28);
+}
+.publishing-pillars article {
+  min-width: 0;
+  min-height: 260px;
+  padding: clamp(30px, 3.5vw, 52px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.publishing-pillars h3 {margin: .55em 0 .6em}
+.publishing-pillars p {margin: 0;max-width: 34ch;line-height: 1.7}
+.inquiry-band {margin-top: 0;padding: clamp(38px, 5vw, 60px) 0}
+.inquiry-band .button {white-space: nowrap}
+
+@media (max-width: 1050px) {
+  .site-header nav {gap: 20px}
+  .site-header nav .nav-submit {padding-inline: 14px}
+}
+@media (max-width: 900px) {
+  .site-header nav .nav-submit {
+    min-height: 52px;
+    margin-top: 12px;
+    padding-inline: 18px;
+    justify-content: space-between;
+    border-bottom: 1px solid #ed3037;
+  }
+  .publishing-pillars {grid-template-columns: 1fr}
+  .publishing-pillars article {min-height: 0}
+}
