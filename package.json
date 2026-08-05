@@ -1,0 +1,1 @@
+{"name":"36seas-publishing","private":true,"scripts":{"dev":"wrangler pages dev 36seas-site","deploy":"wrangler pages deploy 36seas-site --project-name=36seas","check":"node --check 36seas-site/script.js"},"devDependencies":{"wrangler":"^4.28.0"}}

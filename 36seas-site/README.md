@@ -1,17 +1,23 @@
-# 36Seas Publishing Website
+# 36Seas Publishing
 
-Responsive static website for 36Seas Publishing, focused on books, Joshua Carlson's speaking engagements, and Experience Strategy.
+Responsive static publishing and author site for Joshua Carlson and 36Seas Publishing.
 
 ## Local preview
-Open `index.html` in a browser, or run:
+
+From the repository root:
 
 ```bash
-python3 -m http.server 8080
+npm install
+npm run dev
 ```
 
 ## Cloudflare Pages
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `/`
 
-Connect the GitHub repository and deploy the `main` branch.
+The repository includes `wrangler.jsonc` and is ready for either direct deployment or Git integration.
+
+- Production branch: `main`
+- Build command: leave blank
+- Build output directory: `36seas-site`
+- Direct deploy: `npm run deploy`
+
+After the first project deployment, open **Workers & Pages → 36seas → Custom domains**, add `36seas.com`, then add `www.36seas.com` and redirect it to the apex domain using a Cloudflare Redirect Rule.
