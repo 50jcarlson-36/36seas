@@ -1,0 +1,14 @@
+/* Consistent optical sizing across source images with different native dimensions. */
+.catalog-list .cover-wrap{height:600px;min-height:0}
+.catalog-list .cover-wrap img,.catalog-list .cover-wrap.ocala img,.catalog-list .cover-wrap.function img{width:auto;height:auto;max-width:88%;max-height:500px;object-fit:contain}
+.series-cover{display:grid;width:100%;height:620px;aspect-ratio:auto;place-items:center;padding:42px;overflow:hidden}
+.series-cover img{display:block;width:100%;height:100%;max-width:390px;max-height:520px;object-fit:contain}
+.flip-stage{min-height:700px}
+.flip-book{display:block;width:360px;height:532px;max-width:72%;aspect-ratio:auto;min-width:0}
+.flip-face{display:block;width:100%;height:100%}
+.flip-front img{width:100%;height:100%;object-fit:cover}
+.flip-back img{width:auto;height:100%;max-width:none;object-fit:initial}
+.talk-art img{width:min(90%,360px);height:500px;max-width:360px;max-height:500px;object-fit:contain}
+@media(max-width:900px){.catalog-list .cover-wrap{height:540px}.catalog-list .cover-wrap img,.catalog-list .cover-wrap.ocala img,.catalog-list .cover-wrap.function img{max-height:460px}.series-cover{height:560px}.series-cover img{max-height:470px}.flip-stage{min-height:620px}.flip-book{width:330px;height:488px}}
+@media(max-width:600px){.catalog-list .cover-wrap{height:500px}.catalog-list .cover-wrap img,.catalog-list .cover-wrap.ocala img,.catalog-list .cover-wrap.function img{max-height:430px}.series-cover{height:500px;padding:30px}.series-cover img{max-height:420px}.flip-stage{min-height:540px}.flip-book{width:290px;height:429px;max-width:78%}.talk-art img{height:440px;max-height:440px}}
+@media(prefers-reduced-motion:reduce){.series-cover img,.talk-art img{transition:none}}
