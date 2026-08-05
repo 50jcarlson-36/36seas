@@ -5,6 +5,6 @@
 /* Present each illustration as a tight cinematic strip. The source artwork has
    generous white canvas above and below the panels, so the wider viewport
    deliberately crops that canvas while preserving the artwork itself. */
-.framework-story figure,.story-acts figure{padding:0!important;background:transparent!important;overflow:hidden}
+.framework-story figure,.story-acts figure{align-self:center!important;padding:0!important;background:transparent!important;overflow:hidden}
 .framework-story figure img,.story-acts figure img{display:block;width:100%;height:auto!important;max-height:none!important;aspect-ratio:2.9/1!important;object-fit:cover!important;object-position:center!important;background:transparent!important}
 .framework-story figcaption,.story-acts figcaption{display:none}

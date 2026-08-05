@@ -1,0 +1,14 @@
+.trailer-copy,
+.trailer-frame {
+  align-self: center;
+}
+
+.meat-page .trailer-stage::before {
+  background-image: url("assets/meat-wagon-cover.jpg");
+}
+
+.meat-page .trailer-frame {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.78)),
+    url("assets/meat-wagon-cover.jpg");
+}
