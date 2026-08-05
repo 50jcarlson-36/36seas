@@ -4,28 +4,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080a0b">
-  <meta name="description" content="36Seas Publishing — fiction, field guides, and ideas from author Joshua Carlson. Stories worth crossing oceans for.">
-  <meta property="og:title" content="36Seas Publishing | Joshua Carlson">
-  <meta property="og:description" content="Independent books for readers, leaders, and curious minds.">
+  <meta name="description" content="36Seas Publishing is an independent publishing company creating fiction, field guides, and ideas worth crossing oceans for.">
+  <meta property="og:title" content="36Seas Publishing | Independent Publishing Company">
+  <meta property="og:description" content="Distinctive books, bold ideas, and unforgettable voices.">
   <meta property="og:image" content="https://36seas.com/assets/Heroimage36Seas.png">
   <meta property="og:url" content="https://36seas.com/">
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://36seas.com/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="motion.css">
   <title>36Seas Publishing | Stories Worth Crossing Oceans For</title>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" data-header>
-    <a class="wordmark" href="#top" aria-label="36Seas Publishing home"><b>36</b><span><strong>36SEAS</strong><small>PUBLISHING</small></span></a>
+    <a class="wordmark" href="#top" aria-label="36Seas Publishing home"><img src="assets/36seas-wave.svg" alt="" width="58" height="24"><span><strong>36SEAS</strong><small>PUBLISHING</small></span></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><b>Menu</b></button>
-    <nav id="site-nav" aria-label="Primary navigation"><a href="#catalog">Books</a><a href="#author">Author</a><a href="#speaking">Speaking</a><a href="#readers" class="nav-accent">Reader list</a></nav>
+    <nav id="site-nav" aria-label="Primary navigation"><a href="#catalog">Books</a><a href="#authors">Authors</a><a href="#publishing">Publishing</a><a href="#readers" class="nav-accent">Reader list</a></nav>
   </header>
 
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-atmosphere"></div>
+      <div class="hero-atmosphere"></div><div class="hero-current" aria-hidden="true"></div>
       <div class="hero-copy reveal">
         <p class="eyebrow">A new release from 36Seas Publishing</p>
         <h1 id="hero-title">Welcome to<br><em>Supermarket Earth.</em></h1>
@@ -33,17 +34,17 @@
         <div class="hero-actions"><a class="button red" href="https://www.amazon.com/dp/B0HCWJWTZZ" target="_blank" rel="noopener">Buy <i>Meat Wagon</i></a><a class="text-link" href="#catalog">Explore the catalog <span>↓</span></a></div>
         <div class="release-meta"><span>Speculative horror</span><span>Joshua Carlson</span><span>Available on Amazon</span></div>
       </div>
-      <div class="hero-book reveal"><div class="book-glow"></div><img src="assets/meat-wagon-cover.png" alt="Meat Wagon by Joshua Carlson book cover" width="992" height="1586" fetchpriority="high"></div>
+      <div class="hero-book reveal" data-parallax><div class="book-glow"></div><img src="assets/meat-wagon-cover.png" alt="Meat Wagon by Joshua Carlson book cover" width="992" height="1586" fetchpriority="high"></div>
       <div class="vertical-mark">36SEAS · STORIES WORTH CROSSING OCEANS FOR</div>
     </section>
 
     <section class="publisher-statement section" aria-label="About 36Seas Publishing">
       <p class="section-code">36S / 001</p>
-      <div class="statement reveal"><p class="eyebrow">Independent by design</p><h2>Books that stay with you<br>after the crossing.</h2><div class="statement-body"><p>36Seas Publishing is an independent home for sharp ideas and unforgettable stories from Joshua Carlson.</p><p>From speculative worlds to practical frameworks, every title is made to provoke thought, start conversations, and earn its place on your shelf.</p></div></div>
+      <div class="statement reveal"><p class="eyebrow">Independent by design</p><h2>Books that stay with you<br>after the crossing.</h2><div class="statement-body"><p>36Seas Publishing is an independent publishing company for distinctive voices, sharp ideas, and unforgettable stories.</p><p>Across fiction and nonfiction, we create books that provoke thought, start conversations, and earn their place on the shelf.</p></div></div>
     </section>
 
     <section id="catalog" class="catalog section" aria-labelledby="catalog-title">
-      <div class="catalog-head reveal"><div><p class="eyebrow dark">The catalog</p><h2 id="catalog-title">Three books.<br>Three crossings.</h2></div><p>Fiction that unsettles. Nonfiction that equips. Stories that refuse to disappear quietly.</p></div>
+      <div class="catalog-head reveal"><div><p class="eyebrow dark">The current list</p><h2 id="catalog-title">Three books.<br>One beginning.</h2></div><p>Fiction that unsettles. Nonfiction that equips. This is the opening list from 36Seas Publishing.</p></div>
       <div class="catalog-list">
         <article class="title-card featured reveal">
           <div class="cover-wrap"><img src="assets/meat-wagon-cover.png" alt="Meat Wagon book cover" width="992" height="1586" loading="lazy"></div>
@@ -58,12 +59,22 @@
           <div class="title-info"><p class="book-no">36S—003 · Fiction</p><h3>The Ocala Nine</h3><p class="tagline">Some legends aren’t stories. They’re warnings.</p><p>The search for the Fountain of Youth becomes a crossing into the strange, the shadowed, and the unforgettable.</p><a class="button ink" href="https://www.amazon.com/dp/B0H18PZSY9" target="_blank" rel="noopener">View on Amazon</a></div>
         </article>
       </div>
-      <a class="amazon-strip" href="https://www.amazon.com/stores/Joshua-Carlson/author/B0CRZFLQXC" target="_blank" rel="noopener"><span>Browse every format and edition</span><strong>Visit Joshua Carlson on Amazon</strong><b>↗</b></a>
+      <a class="amazon-strip" href="https://www.amazon.com/stores/Joshua-Carlson/author/B0CRZFLQXC" target="_blank" rel="noopener"><span>Featured author storefront</span><strong>Browse Joshua Carlson on Amazon</strong><b>↗</b></a>
     </section>
 
-    <section id="author" class="author section" aria-labelledby="author-title">
+    <section id="authors" class="author section" aria-labelledby="author-title">
       <div class="author-monogram reveal"><span>JC</span><small>Author / Strategist / Speaker</small></div>
-      <div class="author-copy reveal"><p class="eyebrow">The author</p><h2 id="author-title">Joshua Carlson writes at the edge of what’s next.</h2><p class="lead">Stories for the imagination. Frameworks for the work.</p><p>Joshua Carlson is an author, experience strategist, and product design leader with three decades of work across healthcare, government, finance, and technology. His fiction turns contemporary anxieties into cinematic worlds. His nonfiction helps teams create clarity in the middle of change.</p><p>36Seas Publishing brings both sides of that work under one flag.</p><a class="text-link gold" href="https://www.amazon.com/stores/Joshua-Carlson/author/B0CRZFLQXC" target="_blank" rel="noopener">Follow Joshua on Amazon <span>↗</span></a></div>
+      <div class="author-copy reveal"><p class="eyebrow">Featured author · Founding list</p><h2 id="author-title">Joshua Carlson writes at the edge of what’s next.</h2><p class="lead">Stories for the imagination. Frameworks for the work.</p><p>Joshua Carlson is the founding author on the 36Seas list—an experience strategist and product design leader whose fiction turns contemporary anxieties into cinematic worlds and whose nonfiction helps teams create clarity in the middle of change.</p><p>His titles establish the range of the company’s first list. Future 36Seas authors will bring new voices, genres, and crossings of their own.</p><a class="text-link gold" href="https://www.amazon.com/stores/Joshua-Carlson/author/B0CRZFLQXC" target="_blank" rel="noopener">Explore Joshua’s books <span>↗</span></a></div>
+    </section>
+
+    <section id="publishing" class="publishing section" aria-labelledby="publishing-title">
+      <div class="publishing-head reveal"><p class="eyebrow">The company</p><h2 id="publishing-title">A publishing house<br>built for bold crossings.</h2><p>36Seas develops and publishes work with a clear point of view, a strong visual identity, and a reason to exist beyond the shelf.</p></div>
+      <div class="publishing-pillars">
+        <article class="reveal"><span>01</span><h3>Distinctive voices</h3><p>Authors with something specific to say and the courage to say it in their own voice.</p></article>
+        <article class="reveal"><span>02</span><h3>Editorial purpose</h3><p>Books shaped with clarity, discipline, and respect for the reader’s time.</p></article>
+        <article class="reveal"><span>03</span><h3>Cinematic craft</h3><p>Design and storytelling that make every release feel considered, collectible, and complete.</p></article>
+      </div>
+      <div class="inquiry-band reveal"><div><p class="eyebrow">Authors · Agents · Partners</p><h3>Start a publishing conversation.</h3></div><p>For rights, representation, partnerships, and publishing inquiries.</p><a class="button red" href="mailto:hello@36seas.com?subject=Publishing%20inquiry%20for%2036Seas">Contact 36Seas</a></div>
     </section>
 
     <section id="speaking" class="speaking section" aria-labelledby="speaking-title">
@@ -81,7 +92,7 @@
     </section>
   </main>
 
-  <footer><a class="wordmark footer-mark" href="#top"><b>36</b><span><strong>36SEAS</strong><small>PUBLISHING</small></span></a><p>Stories worth crossing oceans for.</p><div><a href="mailto:hello@36seas.com">Contact</a><a href="https://www.amazon.com/stores/Joshua-Carlson/author/B0CRZFLQXC" target="_blank" rel="noopener">Amazon</a><span>© <span id="year">2026</span></span></div></footer>
+  <footer><a class="wordmark footer-mark" href="#top"><img src="assets/36seas-wave.svg" alt="" width="58" height="24"><span><strong>36SEAS</strong><small>PUBLISHING</small></span></a><p>An independent publishing company.<br>Stories worth crossing oceans for.</p><div><a href="#publishing">Company</a><a href="mailto:hello@36seas.com">Inquiries</a><span>© <span id="year">2026</span></span></div></footer>
   <script src="script.js" defer></script>
 </body>
 </html>
