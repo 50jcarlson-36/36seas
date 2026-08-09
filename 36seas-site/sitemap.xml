@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://36seas.com/</loc></url><url><loc>https://36seas.com/uxmindset/</loc></url><url><loc>https://36seas.com/series/ux-mindset/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://36seas.com/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://36seas.com/company/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://36seas.com/submissions/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://36seas.com/books/meat-wagon/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://36seas.com/books/the-ocala-nine/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://36seas.com/books/the-function-of-man/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://36seas.com/uxmindset/</loc><lastmod>2026-08-09</lastmod></url>
+  <url><loc>https://36seas.com/series/ux-mindset/</loc><lastmod>2026-08-09</lastmod></url>
+</urlset>
