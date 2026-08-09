@@ -1,0 +1,46 @@
+{
+  "name": "36seas-publishing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
+    "@stripe/stripe-js": "^9.13.0",
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.1",
+    "@tiptap/extension-placeholder": "3.11.0",
+    "@tiptap/pm": "3.11.0",
+    "@tiptap/react": "3.11.0",
+    "@tiptap/starter-kit": "3.11.0",
+    "ai": "^7.0.57",
+    "docx": "^9.7.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^1.28.0",
+    "mammoth": "^1.12.0",
+    "next": "16.3.0",
+    "nodepub": "^3.2.1",
+    "pdfkit": "^0.19.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-hook-form": "^7.84.0",
+    "resend": "^6.18.1",
+    "stripe": "^22.4.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pdfkit": "^0.17.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
