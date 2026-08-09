@@ -44,6 +44,7 @@
 .publishing-pillars p {margin: 0;max-width: 34ch;line-height: 1.7}
 .inquiry-band {margin-top: 0;padding: clamp(38px, 5vw, 60px) 0}
 .inquiry-band .button {white-space: nowrap}
+.inquiry-actions {display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
 
 @media (max-width: 1050px) {
   .site-header nav {gap: 20px}
@@ -59,4 +60,5 @@
   }
   .publishing-pillars {grid-template-columns: 1fr}
   .publishing-pillars article {min-height: 0}
+  .inquiry-actions {justify-content:flex-start}
 }
