@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="dark-mode.css">
   <link rel="stylesheet" href="submission-cta-2026.css">
   <link rel="stylesheet" href="first-mate-campaign.css">
+  <link rel="stylesheet" href="showcase-hero.css?v=1">
+  <script>if(Date.now()>=Date.UTC(2026,7,15,4))document.documentElement.classList.add('show-feature-ended')</script>
   <title>36Seas Publishing | Stories Worth Crossing Oceans For</title>
 </head>
 <body>
@@ -38,7 +40,58 @@
   </header>
 
   <main id="main">
-    <section class="hero" id="top" aria-labelledby="hero-title">
+    <div id="top">
+    <section class="showcase-hero" data-show-feature aria-labelledby="showcase-title">
+      <div class="showcase-grid" aria-hidden="true"></div>
+      <div class="showcase-orbit showcase-orbit-one" aria-hidden="true"></div>
+      <div class="showcase-orbit showcase-orbit-two" aria-hidden="true"></div>
+      <div class="showcase-copy reveal">
+        <p class="showcase-event"><span>Featured this week</span> DHITS · New Orleans · August 11–13</p>
+        <h1 id="showcase-title">Have an idea?<br><em>Let&#39;s make it real.</em></h1>
+        <p class="showcase-deck">See how AI-powered prototyping turns early thinking into experiences stakeholders can see, test, and believe in.</p>
+        <p class="showcase-proof">Align faster <i>•</i> Prototype earlier <i>•</i> Build with confidence</p>
+        <div class="showcase-actions">
+          <a class="showcase-primary" href="uxmindset/">Experience UX Mindset <span aria-hidden="true">→</span></a>
+          <a class="showcase-secondary" href="https://www.amazon.com/dp/B0HC7SYW38" target="_blank" rel="noopener">Buy the featured book <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="showcase-speaker">Joshua Carlson <span>Author · UX strategist · Speaker</span></p>
+      </div>
+
+      <div class="showcase-rotator reveal" data-showcase-rotator aria-label="Featured 36Seas books and First Mate">
+        <div class="showcase-stage">
+          <a class="showcase-slide is-active" data-feature-slide href="uxmindset/" aria-label="Explore UX Mindset: AI-Powered Prototyping">
+            <span class="showcase-halo ux" aria-hidden="true"></span>
+            <img src="assets/ux-mindset-home-cover.jpg" alt="UX Mindset: AI-Powered Prototyping by Joshua Carlson" width="682" height="1024" fetchpriority="high">
+            <span class="showcase-slide-copy"><small>Featured at DHITS</small><strong>UX Mindset</strong><b>Bring the idea to life →</b></span>
+          </a>
+          <a class="showcase-slide" data-feature-slide href="books/meat-wagon/" aria-label="Explore Meat Wagon">
+            <span class="showcase-halo meat" aria-hidden="true"></span>
+            <img src="assets/meat-wagon-cover.jpg" alt="Meat Wagon by Joshua Carlson" width="750" height="1200">
+            <span class="showcase-slide-copy"><small>Speculative horror</small><strong>Meat Wagon</strong><b>Enter Supermarket Earth →</b></span>
+          </a>
+          <a class="showcase-slide" data-feature-slide href="books/the-ocala-nine/" aria-label="Explore The Ocala Nine">
+            <span class="showcase-halo ocala" aria-hidden="true"></span>
+            <img src="assets/ocala-nine-cover.jpg" alt="The Ocala Nine by Joshua Carlson" width="698" height="1068">
+            <span class="showcase-slide-copy"><small>Legends · Stories · Warnings</small><strong>The Ocala Nine</strong><b>Follow the search →</b></span>
+          </a>
+          <a class="showcase-slide showcase-first-mate" data-feature-slide href="https://app.36seas.com/signup?start=idea" target="_blank" rel="noopener" aria-label="Start writing with First Mate">
+            <span class="showcase-halo mate" aria-hidden="true"></span>
+            <span class="first-mate-cover" aria-hidden="true"><i>✦</i><small>36Seas presents</small><strong>First Mate</strong><b>AI Author Studio</b><em>You are the author.<br>We&#39;re the First Mate.</em></span>
+            <span class="showcase-slide-copy"><small>From idea to published book</small><strong>First Mate</strong><b>Start writing free ↗</b></span>
+          </a>
+        </div>
+        <div class="showcase-picker" role="group" aria-label="Choose a featured title">
+          <button class="is-active" type="button" data-feature-picker aria-label="Show UX Mindset" aria-pressed="true"><span><img src="assets/ux-mindset-home-cover.jpg" alt=""></span><b>UX Mindset</b></button>
+          <button type="button" data-feature-picker aria-label="Show Meat Wagon" aria-pressed="false"><span><img src="assets/meat-wagon-cover.jpg" alt=""></span><b>Meat Wagon</b></button>
+          <button type="button" data-feature-picker aria-label="Show The Ocala Nine" aria-pressed="false"><span><img src="assets/ocala-nine-cover.jpg" alt=""></span><b>Ocala Nine</b></button>
+          <button type="button" data-feature-picker aria-label="Show First Mate" aria-pressed="false"><span class="mate-thumb">✦</span><b>First Mate</b></button>
+        </div>
+        <div class="showcase-progress" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="vertical-mark">36SEAS · STORIES WORTH CROSSING OCEANS FOR</div>
+    </section>
+
+    <section class="hero" data-evergreen-hero aria-labelledby="hero-title">
       <div class="hero-atmosphere"></div><div class="hero-current" aria-hidden="true"></div>
       <div class="hero-copy reveal">
         <p class="eyebrow">A new release from 36Seas Publishing</p>
@@ -50,6 +103,7 @@
       <div class="hero-book reveal" data-parallax><div class="book-glow"></div><img src="assets/meat-wagon-cover.jpg" alt="Meat Wagon by Joshua Carlson front cover" width="750" height="1200" fetchpriority="high"></div>
       <div class="vertical-mark">36SEAS · STORIES WORTH CROSSING OCEANS FOR</div>
     </section>
+    </div>
 
     <section class="publisher-statement section" aria-label="Turn your idea into a book with First Mate">
       <p class="section-code">36S / 001</p>
