@@ -41,8 +41,10 @@ if(showcaseRotator&&!document.documentElement.classList.contains('show-feature-e
   };
   const updateFeatureCopy=slide=>{
     if(!slide)return;
+    const theme=slide.dataset.theme||'ux';
+    document.body?.setAttribute('data-showcase-theme',theme);
     shell?.classList.remove('theme-ux','theme-meat','theme-ocala','theme-mate');
-    shell?.classList.add(`theme-${slide.dataset.theme||'ux'}`);
+    shell?.classList.add(`theme-${theme}`);
     copyTargets.kicker&&(copyTargets.kicker.textContent=slide.dataset.kicker||'Featured');
     copyTargets.event&&(copyTargets.event.textContent=slide.dataset.event||'');
     copyTargets.title&&(copyTargets.title.textContent=slide.dataset.title||'');
