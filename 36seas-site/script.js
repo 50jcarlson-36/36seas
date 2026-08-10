@@ -9,11 +9,58 @@ document.getElementById('year').textContent=new Date().getFullYear();
 
 const showcaseRotator=document.querySelector('[data-showcase-rotator]');
 if(showcaseRotator&&!document.documentElement.classList.contains('show-feature-ended')){
+  const shell=document.querySelector('[data-feature-shell]');
+  const copyTargets={
+    kicker:document.querySelector('[data-feature-kicker]'),
+    event:document.querySelector('[data-feature-event]'),
+    title:document.querySelector('[data-feature-title]'),
+    titleEm:document.querySelector('[data-feature-title-em]'),
+    deck:document.querySelector('[data-feature-deck]'),
+    proof:document.querySelector('[data-feature-proof]'),
+    primary:document.querySelector('[data-feature-primary]'),
+    secondary:document.querySelector('[data-feature-secondary]'),
+    author:document.querySelector('[data-feature-author]'),
+    role:document.querySelector('[data-feature-role]')
+  };
   const slides=[...showcaseRotator.querySelectorAll('[data-feature-slide]')];
   const pickers=[...showcaseRotator.querySelectorAll('[data-feature-picker]')];
   const progress=showcaseRotator.querySelector('.showcase-progress span');
   let activeIndex=0;
   let rotation;
+  const setLink=(link,text,href)=>{
+    if(!link)return;
+    link.href=href||'#';
+    link.innerHTML=`${text} <span aria-hidden="true">${href?.startsWith('http')?'↗':'→'}</span>`;
+    if(href?.startsWith('http')){
+      link.target='_blank';
+      link.rel='noopener';
+    }else{
+      link.removeAttribute('target');
+      link.removeAttribute('rel');
+    }
+  };
+  const updateFeatureCopy=slide=>{
+    if(!slide)return;
+    shell?.classList.remove('theme-ux','theme-meat','theme-ocala','theme-mate');
+    shell?.classList.add(`theme-${slide.dataset.theme||'ux'}`);
+    copyTargets.kicker&&(copyTargets.kicker.textContent=slide.dataset.kicker||'Featured');
+    copyTargets.event&&(copyTargets.event.textContent=slide.dataset.event||'');
+    copyTargets.title&&(copyTargets.title.textContent=slide.dataset.title||'');
+    copyTargets.titleEm&&(copyTargets.titleEm.textContent=slide.dataset.titleEm||'');
+    copyTargets.deck&&(copyTargets.deck.textContent=slide.dataset.deck||'');
+    if(copyTargets.proof){
+      const parts=(slide.dataset.proof||'').split('•').map(part=>part.trim()).filter(Boolean);
+      copyTargets.proof.replaceChildren(...parts.flatMap((part,index)=>{
+        const text=document.createTextNode(part);
+        return index?[document.createElement('i'),text]:[text];
+      }));
+      copyTargets.proof.querySelectorAll('i').forEach(dot=>dot.textContent='•');
+    }
+    setLink(copyTargets.primary,slide.dataset.primaryText||'Explore',slide.dataset.primaryHref||slide.href);
+    setLink(copyTargets.secondary,slide.dataset.secondaryText||'Buy the book',slide.dataset.secondaryHref||slide.href);
+    copyTargets.author&&(copyTargets.author.textContent=slide.dataset.author||'36Seas');
+    copyTargets.role&&(copyTargets.role.textContent=slide.dataset.role||'Publishing');
+  };
   const restartProgress=()=>{
     if(!progress||reduceMotion)return;
     progress.style.animation='none';
@@ -22,6 +69,7 @@ if(showcaseRotator&&!document.documentElement.classList.contains('show-feature-e
   };
   const showSlide=index=>{
     activeIndex=(index+slides.length)%slides.length;
+    updateFeatureCopy(slides[activeIndex]);
     slides.forEach((slide,slideIndex)=>{
       const active=slideIndex===activeIndex;
       slide.classList.toggle('is-active',active);
