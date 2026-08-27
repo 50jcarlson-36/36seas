@@ -89,6 +89,20 @@
 .author-path-intro h2 em {color: var(--gold);font-weight: 500}
 .author-path-intro > p:last-child {max-width: 560px;color: #aaa49a;font-size: clamp(1rem,1.4vw,1.2rem)}
 
+.writer-struggle {
+  position:relative;
+  z-index:1;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  margin-top:clamp(55px,7vw,95px);
+  border-top:1px solid var(--line);
+  border-left:1px solid var(--line);
+}
+.writer-struggle article {min-height:300px;padding:clamp(28px,4vw,52px);border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(12,15,17,.78)}
+.writer-struggle span,.momentum-cta span {color:var(--gold);font-size:.58rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+.writer-struggle h3 {margin:28px 0 18px;font:500 clamp(2rem,3.2vw,3.5rem)/.95 var(--serif)}
+.writer-struggle p {color:#969088;font-size:.88rem;line-height:1.75}
+
 .first-mate-story {
   display: grid;
   grid-template-columns: 1.08fr .92fr;
@@ -138,6 +152,11 @@
 .first-mate-route li.is-active b {background:var(--gold);border-color:var(--gold);color:#15110b;box-shadow:0 0 24px rgba(199,154,85,.28)}
 .first-mate-route blockquote {margin:35px 0 0;padding:25px 0 0;border-top:1px solid var(--line);font:italic 500 clamp(1.5rem,2.5vw,2.6rem)/1.1 var(--serif);color:var(--gold)}
 
+.momentum-cta {position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr auto;gap:clamp(28px,5vw,70px);align-items:center;margin-top:1px;padding:clamp(35px,5vw,65px);border:1px solid rgba(199,154,85,.4);background:linear-gradient(110deg,rgba(199,154,85,.13),rgba(9,12,14,.96))}
+.momentum-cta h3 {max-width:650px;margin:12px 0 0;font:500 clamp(2.25rem,4vw,4.5rem)/.94 var(--serif)}
+.momentum-cta p {max-width:520px;margin:0;color:#aaa49a}
+.momentum-cta .first-mate-button {white-space:nowrap}
+
 .author-path-fork {display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-top:1px;background:var(--line)}
 .author-path-fork article {min-height:350px;padding:clamp(35px,5vw,70px);background:#0c0f11}
 .author-path-fork article:last-child {background:#13100c}
@@ -158,10 +177,11 @@
 }
 
 @media (max-width: 900px) {
-  .author-path-intro,.first-mate-story,.author-path-fork {grid-template-columns:1fr}
+  .author-path-intro,.writer-struggle,.first-mate-story,.momentum-cta,.author-path-fork {grid-template-columns:1fr}
   .author-path-intro .eyebrow {grid-column:auto}
   .first-mate-route {border-left:0;border-top:1px solid var(--line)}
   .statement-actions {margin-left:0}
+  .momentum-cta .first-mate-button {justify-self:start;white-space:normal}
 }
 
 @media (max-width: 540px) {
