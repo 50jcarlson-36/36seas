@@ -8,3 +8,9 @@
 
 /assets/*
   Cache-Control: public, max-age=3600, must-revalidate
+
+/author-roadmap/download-74c918e2f06a/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+/author-roadmap/download-74c918e2f06a/36seas-book-to-launch-workbook.pdf
+  Content-Disposition: attachment; filename="36seas-book-to-launch-workbook.pdf"

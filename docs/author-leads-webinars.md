@@ -20,3 +20,11 @@ Edit 36seas-site/webinars/events.json. Keep it empty until events are confirmed;
 Status: upcoming or past. Topic: writing, design, or publishing. For a replay use status past and a real replay URL. The hub supports availability/topic filters and text search. Add final recording metadata only when available.
 
 The pages draw inspiration from book.supercool.com and brevo.com/webinar-hub while using original 36Seas copy and existing Meat Wagon assets. No third-party author endorsements or bestseller guarantees are used.
+
+## Illustrated workbook update
+
+The public /author-roadmap/ route is now an email capture landing page with cover and selected page previews. It contains no PDF download link. The 12-page PDF has 21 interactive text fields, illustrated design examples, checklists, and a weekly action plan.
+
+Brevo double opt-in redirects confirmed readers to /author-roadmap/download-74c918e2f06a/. This unlisted download page and PDF carry noindex headers and are omitted from the sitemap. This is a lead-magnet delivery flow, not an authenticated file entitlement system: recipients can share the download URL.
+
+Rebuild with scripts/build-author-workbook.py using ReportLab and the bundled font directory (or WORKBOOK_FONT_DIR). Output: output/pdf/36seas-book-to-launch-workbook.pdf. Publish the same file under the unlisted download directory. Preview assets are rendered PDF pages 1, 7, and 11.
