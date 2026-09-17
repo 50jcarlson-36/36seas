@@ -1,6 +1,6 @@
 (() => {
   const state = new URLSearchParams(location.search).get('signup');
-  if (!state || state === 'success') return;
+  if (!state || state === 'success' || state === 'confirmed') return;
   const eyebrow = document.querySelector('#signup-eyebrow');
   const title = document.querySelector('#signup-title');
   const message = document.querySelector('#signup-message');
