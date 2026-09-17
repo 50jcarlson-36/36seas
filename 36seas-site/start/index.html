@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://36seas.com/start/">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="start.css">
+  <link rel="stylesheet" href="start.css?v=audit-20260917">
   <title>Your Book Deserves a Publisher | 36Seas</title>
 </head>
 <body>
@@ -38,30 +38,27 @@
       <p class="eyebrow">Your next chapter</p>
       <h2>Start your book.</h2>
       <p class="card-copy">Join the 36Seas author list and tell us where you are in the journey.</p>
-      <form id="lead-form" action="/api/subscribe" method="post">
-        <input id="interest" type="hidden" name="interest" value="Facebook author lead">
-        <label class="hp" aria-hidden="true">Company website<input name="company_website" tabindex="-1" autocomplete="off"></label>
-        <div class="field"><label for="name">First name</label><input id="name" name="name" autocomplete="given-name" placeholder="Your name"></div>
-        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
-        <label class="consent"><input type="checkbox" name="marketing_consent" value="yes" required><span>I agree to receive 36Seas author, publishing, and book updates. I can unsubscribe at any time.</span></label>
-        <button class="button" type="submit">Start My Book →</button>
-      </form>
-      <div class="feedback" id="feedback"><strong>You're on the list.</strong><br>What best describes your book right now?</div>
+      <div class="author-signup">
+        <p class="micro">Confirm your email to get author resources, the free workbook, and webinar news.</p>
+        <iframe src="https://ff99321b.sibforms.com/serve/MUIFAMyiN8dWNa39sKjISiDwyd5ziIXGyAydPmaCa2Kt8EPOqiQjvdM4A8jYIWbx55FnSWMXfWolnnyCzeQWyfzEEe-LocW0caPierXB-RHzFp_uNU7pJPXt9nfcJw8v3O_GupfJI_wqJrHzUTGfcXgSu0ZHLT08WeRAySD4ZbQHYje1dBZhmFShqww_nsXJ5VsZxorquxBIJolMow==?v=workbook-20260917" title="Join the 36Seas author list" loading="lazy"></iframe>
+        <p class="micro"><a href="https://ff99321b.sibforms.com/serve/MUIFAMyiN8dWNa39sKjISiDwyd5ziIXGyAydPmaCa2Kt8EPOqiQjvdM4A8jYIWbx55FnSWMXfWolnnyCzeQWyfzEEe-LocW0caPierXB-RHzFp_uNU7pJPXt9nfcJw8v3O_GupfJI_wqJrHzUTGfcXgSu0ZHLT08WeRAySD4ZbQHYje1dBZhmFShqww_nsXJ5VsZxorquxBIJolMow==?v=workbook-20260917" target="_blank" rel="noopener">Open the email signup form →</a> · <a href="../privacy/">Privacy policy</a></p>
+      </div>
+      <p class="card-copy">Ready to work on your book? Choose your starting point:</p>
       <div class="qualify" id="qualify">
         <div class="qualify-grid">
-          <a data-stage="idea" href="https://app.36seas.com/?source=facebook&stage=idea">I have an idea →</a>
-          <a data-stage="writing" href="https://app.36seas.com/?source=facebook&stage=writing">I've started writing →</a>
-          <a data-stage="draft" href="https://app.36seas.com/?source=facebook&stage=draft">I have a draft →</a>
-          <a data-stage="manuscript" href="https://app.36seas.com/?source=facebook&stage=manuscript">I have a manuscript →</a>
+          <a data-stage="idea" href="https://app.36seas.com/signup?start=idea&amp;source=facebook">I have an idea →</a>
+          <a data-stage="writing" href="https://app.36seas.com/signup?start=manuscript&amp;source=facebook">I've started writing →</a>
+          <a data-stage="draft" href="https://app.36seas.com/signup?start=manuscript&amp;source=facebook">I have a draft →</a>
+          <a data-stage="manuscript" href="https://app.36seas.com/signup?start=manuscript&amp;source=facebook">I have a manuscript →</a>
         </div>
       </div>
       <div class="divider">Already finished?</div>
-      <a class="secondary" id="manuscript-link" href="https://app.36seas.com/?source=facebook&intent=submit">Submit my manuscript →</a>
+      <a class="secondary" id="manuscript-link" href="../submissions/">Submit my manuscript →</a>
       <p class="micro">Publishing consideration is selective and subject to editorial approval, commercial fit, and a separate publishing agreement.</p>
     </aside>
   </main>
 
   <footer class="footer wrap"><span>© 2026 36Seas Publishing</span><span>Real authors · Professional publishing · Lasting impact</span></footer>
-  <script src="start.js" defer></script>
+  <script src="start.js?v=audit-20260917" defer></script>
 </body>
 </html>
