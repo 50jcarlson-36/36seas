@@ -9,3 +9,10 @@
 .origin-deck{margin-top:24px}
 
 .concept-grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}.concept-grid img{height:360px;object-fit:cover}.concept-cover img{object-fit:contain;background:#090e10}.product-shot a{color:#8ae0cb!important}@media(max-width:700px){.concept-grid{grid-template-columns:1fr}.concept-grid img{height:280px}}
+
+/* The published jacket remains complete at every viewport; never crop to a front cover. */
+.concept-grid{grid-template-columns:minmax(0,1fr)}
+.concept-grid .cover-spread{grid-row:1}
+.concept-grid .cover-spread img{height:auto;aspect-ratio:966/666;object-fit:contain;background:#090e10}
+.cover-spread>a{display:block}
+.cover-spread>a:focus-visible{outline:3px solid #ffcc00;outline-offset:-4px}
