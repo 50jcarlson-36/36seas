@@ -5,11 +5,18 @@
 ## Public entry points
 
 - [Books and catalog](https://36seas.com/#catalog): Discover published books and follow links to individual book pages.
-- [Author studio overview](https://36seas.com/#first-mate): Learn about First Mate, the author studio platform. The signed-in workspace is private.
+- [Author studio overview](https://36seas.com/author-tools/first-mate/): Learn about First Mate, the author studio platform. The signed-in workspace is private.
 - [Become an author](https://36seas.com/become-an-author/): Explore the publishing path and author opportunities.
 - [Webinars](https://36seas.com/webinars/): Find educational sessions for authors.
 - [Pricing](https://36seas.com/pricing/): Review public plans and publishing service pricing.
 - [Company](https://36seas.com/company/): Learn about 36Seas Publishing.
+
+## Author resources
+
+- [Publishing paths](https://36seas.com/publishing/): Compare self-publishing with separately agreed publishing services.
+- [Author tools](https://36seas.com/author-tools/): Organize ideas, manuscript work, and preparation.
+- [Book formatting](https://36seas.com/book-formatting/): Understand print preparation and find current KDP guidance.
+- [Business and technical books](https://36seas.com/publishing/business-and-technical-books/): Plan a professional manuscript and service brief.
 
 ## Discovery and access
 
