@@ -1,0 +1,18 @@
+name: Approved launch baseline
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  launch-lock:
+    name: No unreviewed product drift
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/check-launch-lock.mjs
+      - run: node scripts/test-launch-lock.mjs
