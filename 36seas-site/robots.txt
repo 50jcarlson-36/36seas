@@ -16,7 +16,6 @@ User-agent: Perplexity-User
 User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: Applebot
-Allow: /
 Disallow: /api
 Disallow: /admin
 Disallow: /backoffice
@@ -25,9 +24,9 @@ Disallow: /dashboard
 Disallow: /editor
 Disallow: /settings
 Disallow: /author-roadmap/download-74c918e2f06a/
+Allow: /
 
 User-agent: *
-Allow: /
 Disallow: /api
 Disallow: /admin
 Disallow: /backoffice
@@ -36,5 +35,6 @@ Disallow: /dashboard
 Disallow: /editor
 Disallow: /settings
 Disallow: /author-roadmap/download-74c918e2f06a/
+Allow: /
 
 Sitemap: https://36seas.com/sitemap.xml
