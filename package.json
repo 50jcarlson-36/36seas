@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "wrangler pages dev 36seas-site",
     "deploy": "wrangler pages deploy 36seas-site --project-name=36seas",
-    "check": "node --check 36seas-site/script.js && node scripts/check-cover-spread.mjs && node --check 36seas-site/lead-popups.js && node scripts/check-lead-popups.mjs"
+    "check": "node --check 36seas-site/script.js && node scripts/check-cover-spread.mjs && node --check 36seas-site/lead-popups.js && node scripts/check-lead-popups.mjs && node scripts/check-public-discovery.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.28.0"
