@@ -1,3 +1,40 @@
+# Public marketing site only. Private hosts publish their own deny-all policy.
+
+User-agent: GPTBot
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: ClaudeBot
+User-agent: Meta-ExternalAgent
+User-agent: Bytespider
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Applebot
+Allow: /
+Disallow: /api
+Disallow: /admin
+Disallow: /backoffice
+Disallow: /shipwreck
+Disallow: /dashboard
+Disallow: /editor
+Disallow: /settings
+Disallow: /author-roadmap/download-74c918e2f06a/
+
 User-agent: *
 Allow: /
+Disallow: /api
+Disallow: /admin
+Disallow: /backoffice
+Disallow: /shipwreck
+Disallow: /dashboard
+Disallow: /editor
+Disallow: /settings
+Disallow: /author-roadmap/download-74c918e2f06a/
+
 Sitemap: https://36seas.com/sitemap.xml

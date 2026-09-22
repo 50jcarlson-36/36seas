@@ -1,0 +1,19 @@
+# 36Seas Publishing
+
+> 36Seas is an independent publishing company and author studio platform. It publishes books and supports authors through First Mate, its author workspace, publishing resources, and educational webinars.
+
+## Public entry points
+
+- [Books and catalog](https://36seas.com/#catalog): Discover published books and follow links to individual book pages.
+- [Author studio overview](https://36seas.com/#first-mate): Learn about First Mate, the author studio platform. The signed-in workspace is private.
+- [Become an author](https://36seas.com/become-an-author/): Explore the publishing path and author opportunities.
+- [Webinars](https://36seas.com/webinars/): Find educational sessions for authors.
+- [Pricing](https://36seas.com/pricing/): Review public plans and publishing service pricing.
+- [Company](https://36seas.com/company/): Learn about 36Seas Publishing.
+
+## Discovery and access
+
+- [Sitemap](https://36seas.com/sitemap.xml): Canonical public pages.
+- [Crawler policy](https://36seas.com/robots.txt): Search discovery and training crawler directives.
+
+Only public marketing and published book pages are intended for discovery and citation. Author accounts, manuscripts, dashboards, editors, settings, APIs, and staff administration are private. This file describes public content; it does not grant training rights or access to private content.
