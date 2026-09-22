@@ -7,3 +7,7 @@ Do not replace popups with page sections, duplicate campaign prices, invent disc
 The footer bug link opens the app's user-requested bug-report dialog. No manuscript, screenshot or session recording is captured automatically. Operational tracking is private in Shipwreck.
 
 Changes require a stated owner decision or a reproduced bug, affected contract, focused regression checks and live verification. Tag releases immutably; preserve exact application and public-site revisions independently. Product approval does not erase known print/context verification follow-ups in the application release register.
+
+## Approved semantic content update — September 22, 2026
+
+Owner requested implementation of the agreed SEO blueprint without product drift: clarify homepage and pricing, add public publishing, author-tool, and formatting resources, and update sitemap and llms links. Prices, checkout destinations, artwork, campaign behavior, and private-host exclusions remain governed by the existing contracts. Do not claim guaranteed publication or automatic Amazon submission.
