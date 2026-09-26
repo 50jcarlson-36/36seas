@@ -1,0 +1,6 @@
+# Editorial motion enhancement
+Owner approved the supplied motion specification and requested implementation/publication on all pages. Scope: static public site shared motion.css/motion.js and references on all HTML pages. Native CSS/WAAPI/IntersectionObserver only; no framework, providers, backend or analytics. Preserve brand, pricing grid, complete cover artwork, destinations and desktop header row.
+
+Finite single-pass reveals below the initial viewport; content visible by default. Tactile button/card feedback, static lightweight surface texture, one bounded desktop hero artwork parallax. Reduced-motion OS preference or footer toggle removes motion; preference is one local browser boolean. Stop work when hidden/offscreen. No live noise/canvas/video. Transform/opacity only for animated properties. No LCP content reveal delay. Existing optimized covers retained, no destructive recompression. New motion files target <13KB gzip combined.
+
+Validation: JS syntax, existing release suite, responsive site routes, computed control/reveal states, storage failure-safe code, reduced-motion override, production asset verification. Frame rate is device-dependent, not certified 60fps. Rollback: revert release to a176008. No author-application architecture impact.
