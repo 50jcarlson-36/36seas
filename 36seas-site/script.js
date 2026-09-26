@@ -31,7 +31,7 @@ if(showcaseRotator&&!document.documentElement.classList.contains('show-feature-e
   const setLink=(link,text,href)=>{
     if(!link)return;
     link.href=href||'#';
-    link.innerHTML=`${text} <span aria-hidden="true">${href?.startsWith('http')?'↗':'→'}</span>`;
+    link.textContent=text;
     if(href?.startsWith('http')){
       link.target='_blank';
       link.rel='noopener';

@@ -9,9 +9,9 @@
       field:'Your next book', options:[['fiction','Meat Wagon · speculative horror'],['adventure','The Ocala Nine · dark adventure'],['professional','AI-Powered Prototyping · UX Mindset'],['personal','The Function of Man · purpose & agency']],note:'Books are purchased on Amazon. No email required.'
     },
     studio: {
-      label: 'First Mate / Lessons learned',
-      literary: {headline:'Give the book a compass.',sub:'Keep the years you have lived in the story. Bring structure to the work ahead. First Mate connects ideas, pages, and preparation—shaped by the lessons of finishing a book.',placeholder:'Where does your book begin today?',cta:'Explore First Mate plans',close:'Back to the page'},
-      direct: {headline:'Give your next draft a clearer direction.',sub:'Organize the idea, develop the manuscript, and prepare your files in one author studio. Use the lessons behind First Mate to make the next step more deliberate.',placeholder:'Where are you with your book?',cta:'Compare First Mate plans',close:'Keep reading'},
+      label: 'FirstMate / Lessons learned',
+      literary: {headline:'Give the book a compass.',sub:'Keep the years you have lived in the story. Bring structure to the work ahead. FirstMate connects ideas, pages, and preparation—shaped by the lessons of finishing a book.',placeholder:'Where does your book begin today?',cta:'Explore FirstMate plans',close:'Back to the page'},
+      direct: {headline:'Give your next draft a clearer direction.',sub:'Organize the idea, develop the manuscript, and prepare your files in one author studio. Use the lessons behind FirstMate to make the next step more deliberate.',placeholder:'Where are you with your book?',cta:'Compare FirstMate plans',close:'Keep reading'},
       field:'Your manuscript stage',options:[['idea','I have an idea'],['draft','I have a draft'],['finished','I’m preparing a finished manuscript']],note:'Start free with Basic. Paid features and allowances depend on your plan.'
     },
     publishing: {
@@ -60,7 +60,7 @@
     if(preview&&current)dismiss();
     const offer=copy[id],words=offer[variant],modal=id!=='welcome';
     const root=document.createElement(modal?'dialog':'aside');
-    root.className='invitation '+(modal?'invitation-modal':'invitation-slide');
+    root.className='invitation '+(modal?'invitation-modal':'invitation-slide')+(id==='studio'?' invitation-fm':'');
     root.setAttribute('aria-labelledby','invitation-title');
     root.setAttribute('aria-describedby','invitation-description');
     if(!modal)root.setAttribute('aria-label','Your next chapter invitation');
@@ -68,7 +68,7 @@
     const layout=document.createElement('div');layout.className='invitation-layout';root.append(layout);
     if(offer.image){const art=document.createElement('div');art.className='invitation-art';const img=document.createElement('img');img.src=offer.image;img.alt=offer.imageAlt;img.width=180;img.height=288;art.append(img);layout.append(art);}
     const content=document.createElement('div');content.className='invitation-copy';layout.append(content);
-    const eyebrow=document.createElement('p');eyebrow.className='eyebrow';eyebrow.textContent=offer.label;content.append(eyebrow);
+    const eyebrow=document.createElement('p');eyebrow.className='eyebrow';eyebrow.textContent=id==='studio'?'FirstMate · Writing software':offer.label;content.append(eyebrow);
     const title=document.createElement('h2');title.id='invitation-title';title.textContent=words.headline;content.append(title);
     const sub=document.createElement('p');sub.id='invitation-description';sub.textContent=words.sub;content.append(sub);
     const form=document.createElement('form');const label=document.createElement('label');label.htmlFor='invitation-choice';label.textContent=offer.field;form.append(label);
@@ -76,7 +76,7 @@
     if(id==='reader')select.addEventListener('change',()=>{const covers={fiction:['meat-wagon-cover','Meat Wagon'],adventure:['ocala-nine-cover','The Ocala Nine'],professional:['ux-mindset-cover','AI-Powered Prototyping'],personal:['function-of-man-cover','The Function of Man']};if(!Object.hasOwn(covers,select.value))return;const image=root.querySelector('.invitation-art img');if(image){image.src='/assets/optimized/'+covers[select.value][0]+'.webp';image.alt=covers[select.value][1]+' by Joshua Carlson';}});
     const placeholder=new Option(words.placeholder,'',true,true);placeholder.disabled=true;select.add(placeholder);
     offer.options.forEach(([value,label])=>select.add(new Option(label,value)));form.append(select);
-    const cta=document.createElement('button');cta.type='submit';cta.className='btn';cta.textContent=words.cta;form.append(cta);
+    const cta=document.createElement('button');cta.type='submit';cta.className=id==='studio'?'btn fm-cta':'btn';cta.textContent=words.cta;form.append(cta);
     form.addEventListener('submit',e=>{e.preventDefault();if(!Object.hasOwn(destinations[id],select.value))return;const destination=destinations[id][select.value];if(!preview)save(local,cooldownKey,String(Date.now()));location.assign(destination);});content.append(form);
     const note=document.createElement('p');note.className='invitation-note';note.textContent=offer.note;content.append(note);
     const leave=document.createElement('button');leave.type='button';leave.className='invitation-dismiss';leave.textContent=words.close;leave.addEventListener('click',dismiss);content.append(leave);
