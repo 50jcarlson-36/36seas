@@ -1,0 +1,2 @@
+# Compact header controls
+Owner requests removing arrows and reducing header control size. Remove decorative arrows from both header CTAs and the sign-in link on shared marketing navigation. Keep wording/destinations. Reduce desktop buttons to 40px minimum height with 12px horizontal padding; mobile remains at least 44px. No change to arrows elsewhere or motion behavior. Verify desktop single row and mobile layout. Continue authorized live correction workflow; rollback to 7b0a59e. No application architecture impact.
