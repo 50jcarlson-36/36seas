@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@500;600;700&display=swap');
+/* Authoritative publisher identity: user-approved 36seas brand sheet, 2026-09-25.
+   Product covers and product-specific accents retain their own identity. */
+:root{--ink:#0d0d0d;--surface:#191919;--paper:#f2f2f2;--cream:#fff;--gold:#ffc107;--muted:#bdbdbd;--line:#333;--serif:Montserrat,Arial,sans-serif;--sans:Lato,Arial,sans-serif;--cond:Montserrat,Arial,sans-serif}
+body{font-family:var(--sans);background-color:var(--ink)}
+h1,h2,h3{font-family:Montserrat,Arial,sans-serif;font-weight:700;line-height:1.12;letter-spacing:-.035em}
+h1{font-size:clamp(38px,5.2vw,78px)}h2{font-size:clamp(30px,3.7vw,55px)}h3{font-size:26px}
+h1 em,h2 em,h3 em{font-style:normal;font-weight:700}
+.eyebrow,.overline,.tag,.nav,.btn,.button,.menu{font-family:Montserrat,Arial,sans-serif}
+.eyebrow,.overline,.tag{font-weight:500}
+.header{background:rgba(13,13,13,.98)}
+.logo,.brand{display:flex;align-items:center;gap:14px;color:#fff;text-decoration:none;flex-shrink:0}
+.logo img,.brand img{display:block;width:60px;height:50px;object-fit:contain;flex:none;filter:none}
+.logo strong,.brand strong{display:block;color:#fff;font:700 23px/1.15 Montserrat,Arial,sans-serif;letter-spacing:.19em}
+.logo small,.brand small{display:block;color:#fff;font:500 9px/1.4 Montserrat,Arial,sans-serif;letter-spacing:.32em;margin-top:7px}
+.nav>a{font-size:11px;font-weight:500}.nav .nav-cta{border-color:var(--gold)}
+.btn{background:var(--gold);border-color:var(--gold);color:#0d0d0d}.btn:hover{background:#d49a00;border-color:#d49a00}
+.btn-outline{background:transparent;border-color:#777;color:var(--paper)}.btn-outline:hover{background:#262626;border-color:#aaa}
+.paper{background:#f2f2f2;color:#0d0d0d}.paper .eyebrow,.paper .muted,.paper .small,.paper .section-head p:not(.eyebrow),.paper .split-copy>p:not(.eyebrow),.book-card>p,.resource-grid p{color:#333}
+.book-stage{background:#e8e8e8}.book-stage:before{border-color:#d2d2d2}.book-meta{color:#545454}.book-links a{border-color:#999}
+.studio{background:#191919}.studio-shell{background:#111;border-color:#333}.studio-page{background:#fff}.route.featured,.plan.recommended,.review-box{background:#191919}.full-wrap{background:#191919}
+.hero h1{font-size:clamp(40px,5.2vw,78px)}.page-hero h1{font-size:clamp(38px,5.2vw,76px)}
+.route h3,.book-card h3{font-size:clamp(23px,2.3vw,32px)}.quote-block h2{font-size:clamp(30px,3.5vw,48px)}
+.invitation h2{font-size:clamp(26px,3vw,38px)}.invitation-slide h2{font-size:26px}
+:where(a,button,input,select,summary):focus-visible{outline:2px solid #ffc107;outline-offset:4px}
+@media(max-width:1100px){.header-inner{gap:22px}.nav{gap:16px}.nav .sign-in{padding-left:14px}}
+@media(max-width:700px){.logo img,.brand img{width:48px;height:40px}.logo strong,.brand strong{font-size:19px}.logo small,.brand small{font-size:8px}.hero h1{font-size:clamp(38px,10vw,62px)}.page-hero h1{font-size:clamp(36px,9vw,56px)}.nav>a{font-size:12px}.logo,.brand{gap:11px}.invitation h2{font-size:28px}.invitation-slide h2{font-size:24px}}
+/* Keep the wider approved display face inside responsive grid tracks. */
+h1,h2,h3{overflow-wrap:anywhere}
+main section>* ,.book-detail-hero>*,.ghostux-portal>*,.framework-story>*,.section-intro>*{min-width:0}
+.ghostux-signals,.site-header nav{flex-wrap:wrap}
+@media(max-width:700px){.site-header{flex-wrap:wrap;padding-block:16px}.site-header nav{gap:14px}.site-header .brand{margin-right:auto}.hero h1{line-height:1.12}.ghostux-signals{gap:8px}}
+/* Paired author actions: publishing consideration, then immediate writing signup. */
+.nav-actions{display:grid;gap:8px;flex-shrink:0}
+.nav-actions a{display:block;text-align:center;font-size:11px;font-weight:500;line-height:1.5;padding:11px 16px;white-space:normal}
+.nav-actions .nav-start{background:var(--gold);color:#0d0d0d;border:1px solid var(--gold)}
+.nav-actions .nav-start:hover{background:#d49a00;border-color:#d49a00}
+@media(max-width:960px){.nav-actions{width:100%}.header:has(.nav.open){max-height:100dvh;overflow-y:auto}}
+@media(max-width:700px){.nav-actions{grid-column:1/-1}.nav-actions a{font-size:12px;min-height:44px}.nav-actions .nav-cta{grid-column:auto}}
+
+.cover-spread{margin:28px 0;min-width:0}.cover-spread img{width:100%;height:auto;object-fit:contain}.cover-spread figcaption{font-size:12px;color:var(--muted);margin-top:16px}.cover-spread figcaption a{text-decoration:underline}

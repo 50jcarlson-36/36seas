@@ -1,129 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://36seas.com/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/company/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/submissions/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/books/meat-wagon/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/books/the-ocala-nine/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/books/the-function-of-man/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/uxmindset/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/series/ux-mindset/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/pricing/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/refund/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/become-an-author/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/webinars/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/webinars/signup/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/author-roadmap/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/publishing/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/publishing/self-publishing-vs-publishing-services/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/publishing/business-and-technical-books/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/author-tools/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/author-tools/first-mate/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/book-formatting/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://36seas.com/book-formatting/kdp-trim-size-and-bleed/</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<url><loc>https://36seas.com/</loc></url>
+<url><loc>https://36seas.com/author-roadmap/</loc></url>
+<url><loc>https://36seas.com/author-tools/</loc></url>
+<url><loc>https://36seas.com/become-an-author/</loc></url>
+<url><loc>https://36seas.com/book-formatting/</loc></url>
+<url><loc>https://36seas.com/book-formatting/kdp-trim-size-and-bleed/</loc></url>
+<url><loc>https://36seas.com/books/</loc></url>
+<url><loc>https://36seas.com/books/ai-powered-prototyping/</loc></url>
+<url><loc>https://36seas.com/books/future-proofing-business-services/</loc></url>
+<url><loc>https://36seas.com/books/meat-wagon/</loc></url>
+<url><loc>https://36seas.com/books/the-function-of-man/</loc></url>
+<url><loc>https://36seas.com/books/the-ocala-nine/</loc></url>
+<url><loc>https://36seas.com/books/the-total-experience-playbook/</loc></url>
+<url><loc>https://36seas.com/books/unlocking-universal-access/</loc></url>
+<url><loc>https://36seas.com/company/</loc></url>
+<url><loc>https://36seas.com/first-mate/</loc></url>
+<url><loc>https://36seas.com/first-mate/export/</loc></url>
+<url><loc>https://36seas.com/first-mate/features/</loc></url>
+<url><loc>https://36seas.com/first-mate/method/</loc></url>
+<url><loc>https://36seas.com/pricing/</loc></url>
+<url><loc>https://36seas.com/privacy/</loc></url>
+<url><loc>https://36seas.com/publishing/</loc></url>
+<url><loc>https://36seas.com/publishing/business-and-technical-books/</loc></url>
+<url><loc>https://36seas.com/publishing/editorial-standards/</loc></url>
+<url><loc>https://36seas.com/publishing/manuscript-review/</loc></url>
+<url><loc>https://36seas.com/publishing/self-publishing-vs-publishing-services/</loc></url>
+<url><loc>https://36seas.com/publishing/services/</loc></url>
+<url><loc>https://36seas.com/reader-news/</loc></url>
+<url><loc>https://36seas.com/refund/</loc></url>
+<url><loc>https://36seas.com/resources/</loc></url>
+<url><loc>https://36seas.com/resources/book-brief/</loc></url>
+<url><loc>https://36seas.com/resources/launch-plan/</loc></url>
+<url><loc>https://36seas.com/resources/revision-passes/</loc></url>
+<url><loc>https://36seas.com/series/ux-mindset/</loc></url>
+<url><loc>https://36seas.com/start/</loc></url>
+<url><loc>https://36seas.com/submissions/</loc></url>
+<url><loc>https://36seas.com/terms/</loc></url>
+<url><loc>https://36seas.com/uxmindset/</loc></url>
+<url><loc>https://36seas.com/webinars/</loc></url>
+<url><loc>https://36seas.com/webinars/signup/</loc></url>
+<url><loc>https://36seas.com/write-your-book/</loc></url>
 </urlset>

@@ -7,3 +7,6 @@ Preserve whole-dollar pricing, shared 26-offer popup catalog, consent/frequency 
 Protected source/assets/configuration are hashed in launch-lock.json. CI checks changes, additions and deletions. Updating that lock requires the owner's authorized decision, affected contracts, relevant tests, release evidence and rollback recorded in the PR; never refresh solely to silence a failure. No runtime or website-content change accompanies this freeze.
 
 Run the existing package check plus node scripts/check-launch-lock.mjs and node scripts/test-launch-lock.mjs before merging. Check the deployed public site after relevant changes. A repository hash is not evidence of live deployment identity or certification of private author output. Preserve the app's four open verification follow-ups.
+
+## September 25 authorized redesign
+Owner explicitly approved the redesigned marketing site, four new restrained invitation concepts, supplied corrected identity, added writing signup, and requested production publication. `MARKETING-REDESIGN-20260925.md` records scope, tests and rollback. On redesigned homepage/pricing, the new invitation renderer supersedes the previous campaign presentation; legacy catalog assets and application campaign system remain intact. The refreshed lock records this authorized baseline.
