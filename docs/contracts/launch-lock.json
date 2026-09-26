@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "applicationVersion": "public-marketing-20260925",
   "applicationCommit": "259f55d (pre-release base; final merge recorded in release receipt)",
-  "decision": "Owner authorized restoring the UX Mindset presentation at the AI-Powered Prototyping book route; UXMINDSET-RESTORE-20260926.md records scope and rollback.",
+  "decision": "Owner requested pricing parity; PRICING-PARITY-20260926.md records authoritative app routing.",
   "protectedPaths": [
     "36seas-site",
     "scripts",
@@ -20,7 +20,7 @@
     "36seas-site/404.html": "73378fd9d6d6d93780594b7eae454e9af3f4d1be4be1f2220b5f03c3062a1133",
     "36seas-site/README.md": "8a06e5eb5236d0027782ce0b808079c958d2db5487a36096d47a6a4048735673",
     "36seas-site/_headers": "498f0b90d4b4e303e7efdcbfbc5ae70333640495346d95f012e7a2cdeb18a564",
-    "36seas-site/_redirects": "7b4310fb189f0f15fe27e493036ace4523ff60fb643919c7a4979ca1d3e4b1d6",
+    "36seas-site/_redirects": "70e49d44977fa3154ea675c1e268d973b5313042c23898ce7bdc005f1a4ee98a",
     "36seas-site/assets/36seas-mark.svg": "455a44567bd6f0856a5b8e3ea12ecf9a1b7d579fc379dd7ff568e667ac616d28",
     "36seas-site/assets/36seas-wave.svg": "6758bf7afe9ac8f9ea9f17ad62b92bff29d26a56f6766e7e0edb063f5ccc8341",
     "36seas-site/assets/Heroimage36Seas.png": "7c63263a6d350bbce6407ed6a47381931388004f148302f90044379868643737",
