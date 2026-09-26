@@ -1,3 +1,7 @@
 
 /founding-authors /become-an-author/ 301
 /founding-authors/ /become-an-author/ 301
+
+# Keep membership pricing on the authoritative application page.
+/pricing https://app.36seas.com/pricing 302
+/pricing/ https://app.36seas.com/pricing 302
