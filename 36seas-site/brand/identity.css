@@ -62,3 +62,14 @@ main section>* ,.book-detail-hero>*,.ghostux-portal>*,.framework-story>*,.sectio
 .nav .nav-actions a{display:grid;grid-template-columns:minmax(0,1fr) 16px;align-items:center;column-gap:12px;justify-content:normal;text-align:left;min-height:48px;padding:13px 18px;font:600 12px/20px Montserrat,Arial,sans-serif;letter-spacing:0}
 .nav .nav-actions .nav-action-arrow{text-align:right;font:500 17px/20px Montserrat,Arial,sans-serif}
 @media(max-width:1200px){.nav .nav-actions{width:100%}.nav .nav-actions a{min-height:50px}}
+/* Desktop: logo, navigation and both author actions share one horizontal row. */
+@media(min-width:1201px){
+ .header-inner{max-width:1680px;padding:22px clamp(24px,3vw,52px);column-gap:28px}
+ .nav{column-gap:clamp(12px,1.25vw,22px);min-width:0}
+ .nav .nav-actions{display:flex;width:auto;gap:10px;margin-left:4px}
+ .nav .nav-actions a{width:auto;min-height:46px;padding:12px 14px;grid-template-columns:auto 14px;column-gap:10px;white-space:nowrap;font-size:11px}
+ .nav .sign-in{padding-left:16px}
+ .header .logo img{width:50px;height:44px}
+ .header .logo strong{font-size:20px}
+ .header .logo small{font-size:8px}
+}
