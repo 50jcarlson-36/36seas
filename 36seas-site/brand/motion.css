@@ -1,0 +1,29 @@
+:root{--ease-editorial:cubic-bezier(.22,1,.36,1)}
+/* Static material finish: section-local, with no filter or blending cost. */
+:is(.hero-art,.book-detail-art,.studio-shell,.full-wrap,.book-stage){position:relative;isolation:isolate}
+:is(.hero-art,.book-detail-art,.studio-shell,.full-wrap)::after{content:"";position:absolute;inset:0;pointer-events:none;background-image:url('/brand/grain.svg');background-size:192px 192px;opacity:.035;z-index:3}
+.book-stage{background-image:radial-gradient(ellipse at 50% 30%,#ffffff70,transparent 75%)}
+:is(.btn,.button,.nav-actions a,.nav-buy){transition:transform 220ms var(--ease-editorial)}
+:is(.btn,.button,.nav-actions a) [aria-hidden=true]{transition:transform 220ms var(--ease-editorial)}
+.nav>a:not(.sign-in){position:relative}
+.nav>a:not(.sign-in)::after{content:"";position:absolute;left:0;right:0;bottom:3px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 220ms var(--ease-editorial)}
+.nav>a[aria-current=page]::after{transform:scaleX(1)}
+.book-stage img{transition:transform 560ms var(--ease-editorial)}
+.motion-preference{background:transparent;border:1px solid #666;color:inherit;padding:10px 14px;font:500 11px Montserrat,Arial,sans-serif;min-height:44px;cursor:pointer;margin-top:18px}
+.motion-preference:focus-visible{outline:2px solid #ffc107;outline-offset:4px}
+/* Retire perpetual legacy decoration; motion is finite or tied to deliberate scrolling. */
+.hero-current,.hero-visual img{animation:none!important}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ html:not(.motion-reduced) :is(.btn,.button,.nav-actions a,.nav-buy):hover{transform:translateY(-2px)}
+ html:not(.motion-reduced) :is(.btn,.button,.nav-actions a):hover [aria-hidden=true]{transform:translateX(3px)}
+ html:not(.motion-reduced) :is(.btn,.button,.nav-actions a):active{transform:translateY(0) scale(.99);transition-duration:90ms}
+ html:not(.motion-reduced) .nav>a:hover::after{transform:scaleX(1)}
+ html:not(.motion-reduced) .book-stage:hover img{transform:translateY(-5px) rotate(-.6deg)}
+}
+html.motion-reduced{scroll-behavior:auto!important}
+html.motion-reduced *,html.motion-reduced *::before,html.motion-reduced *::after{animation:none!important;transition:none!important}
+html.motion-reduced :is(.btn,.button,.nav-actions a,.nav-buy):hover,html.motion-reduced .book-stage:hover img{transform:none!important}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important}:is(.btn,.button,.nav-actions a,.nav-buy):hover,.book-stage:hover img{transform:none!important}}
+
+.motion-settings{padding:20px clamp(22px,5vw,80px)}
+.journey-track>li{min-width:0;overflow-wrap:anywhere}
