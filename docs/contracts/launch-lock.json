@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "applicationVersion": "public-marketing-20260925",
   "applicationCommit": "259f55d (pre-release base; final merge recorded in release receipt)",
-  "decision": "Owner-authorized September 25 marketing redesign and production release; see MARKETING-REDESIGN-20260925.md for contract, checks and rollback.",
+  "decision": "Owner authorized header spacing correction and live deployment; see HEADER-SPACING-20260925.md. Prior authorized redesign preserved.",
   "protectedPaths": [
     "36seas-site",
     "scripts",
@@ -94,7 +94,7 @@
     "36seas-site/books/the-ocala-nine/index.html": "5b1d823373436fd665ed1e2d8c5c0e91302f3754496bfd9294cfc142a30fe5a1",
     "36seas-site/books/the-total-experience-playbook/index.html": "a61d7daca69007ff2d45b2100a0e64561bf2544ca38189f78e7273c0eadb7382",
     "36seas-site/books/unlocking-universal-access/index.html": "1edb96aa3975f6f5cf1bb939177746d9445c0885653beec74941d57a09537956",
-    "36seas-site/brand/identity.css": "ece57bd81f3c5a36838d1a77e9b7fd71d5b61d9131cfbeac2e4298dd966c1515",
+    "36seas-site/brand/identity.css": "56361307d9ed5e4b9da21b9994349566d6d9561006085904a5893efb3bff69c8",
     "36seas-site/brand/invitations.js": "42a9f0ae0dbe9475137004804e6666eea28095a0e89a4921af02ed69bb145900",
     "36seas-site/brand/site.css": "844e7014439477a89ffc06a61da5a4dd490e485aca012424c53b158d62deda03",
     "36seas-site/brand/site.js": "bf581c756a7fcee22d01b34336d8b6363fb8c3e5fb57c8651feb5a2c46c52dee",

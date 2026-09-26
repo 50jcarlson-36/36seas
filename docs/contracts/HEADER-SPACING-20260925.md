@@ -1,0 +1,2 @@
+# Header spacing correction
+Owner requested less crowded, consistently aligned header buttons and immediate publication. CSS-only layout change: equal 240px desktop actions, equal minimum heights, 12px vertical separation, dedicated separation from navigation, earlier compact-menu breakpoint at 1200px. Existing copy, destinations, branding and menu behavior remain intact. Marketing architecture impact: none; existing shared stylesheet owns the layout. Verify at 390/1024/1280/1440 and retain package/launch gates. Rollback by reverting this release to cf96dc2.
