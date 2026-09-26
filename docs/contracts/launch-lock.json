@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "applicationVersion": "public-marketing-20260925",
   "applicationCommit": "259f55d (pre-release base; final merge recorded in release receipt)",
-  "decision": "Owner approved FirstMate product identity and site-wide decorative arrow removal for publication; FIRSTMATE-PRODUCT-20260926.md records scope.",
+  "decision": "Owner authorized restoring the UX Mindset presentation at the AI-Powered Prototyping book route; UXMINDSET-RESTORE-20260926.md records scope and rollback.",
   "protectedPaths": [
     "36seas-site",
     "scripts",
@@ -86,7 +86,7 @@
     "36seas-site/book-formatting/kdp-trim-size-and-bleed/index.html": "21cc2bb473ea35ac879a301d6b4844a8a35eb5ecf1de5021a4fddb201e2b1680",
     "36seas-site/book-showcase.css": "8f9c1ace4dcb71558ab914ee47dbf0f9a6acb212d0ea6844fd2228c29d2a45ab",
     "36seas-site/book-showcase.js": "32bb67d2bfcd41846b8eda2f1931f29b975130562974a49c2afede3283fedbad",
-    "36seas-site/books/ai-powered-prototyping/index.html": "a7225ae0c165b6f545888b5f7ad718b0a3109cc655cd59aa7d986ccb7c6949b2",
+    "36seas-site/books/ai-powered-prototyping/index.html": "cd2578adacc8aa590630484f273963fc625d8c58258edce7bffbb957662176d5",
     "36seas-site/books/future-proofing-business-services/index.html": "86d9cda014b6e3c4f2118a425778629c58a5b7cd2160623b7175312e501db421",
     "36seas-site/books/index.html": "e96ee90547d4cfa45c4916ed6991928f0355a8509ff1b592911da158772fd1da",
     "36seas-site/books/meat-wagon/index.html": "71c03b64af8331cdd7b6a101b5cfaab76de1b76aa2c2101368f17c9853d8166f",
