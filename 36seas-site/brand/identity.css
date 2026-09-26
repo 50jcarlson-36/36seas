@@ -56,3 +56,9 @@ main section>* ,.book-detail-hero>*,.ghostux-portal>*,.framework-story>*,.sectio
  .nav-actions a{min-height:48px;padding:13px 20px;font-size:12px}
  .header:has(.nav.open){max-height:100dvh;overflow-y:auto}
 }
+
+/* One shared text/arrow grid prevents different label lengths from shifting alignment. */
+.nav .nav-actions{width:288px;gap:12px}
+.nav .nav-actions a{display:grid;grid-template-columns:minmax(0,1fr) 16px;align-items:center;column-gap:12px;justify-content:normal;text-align:left;min-height:48px;padding:13px 18px;font:600 12px/20px Montserrat,Arial,sans-serif;letter-spacing:0}
+.nav .nav-actions .nav-action-arrow{text-align:right;font:500 17px/20px Montserrat,Arial,sans-serif}
+@media(max-width:1200px){.nav .nav-actions{width:100%}.nav .nav-actions a{min-height:50px}}
