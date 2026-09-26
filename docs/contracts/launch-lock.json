@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "applicationVersion": "public-marketing-20260925",
   "applicationCommit": "259f55d (pre-release base; final merge recorded in release receipt)",
-  "decision": "Owner requested follow-up button visual correction; HEADER-ACTION-CONSISTENCY-20260925.md records scope and rollback.",
+  "decision": "Owner-authorized pricing grid correction; see PRICING-GRID-20260925.md.",
   "protectedPaths": [
     "36seas-site",
     "scripts",
@@ -123,7 +123,7 @@
     "36seas-site/motion.css": "0a03eed88db17adc52424b47615e1ef566269f0fb22c3cb0295b24753a9afb88",
     "36seas-site/origin-hero.css": "c677c51deac0f44aeef1e93143407ae1d7c1e9194c06b6cea37a7917eb7eaedd",
     "36seas-site/origin-script.js": "a0a83e3c1c08be0b4d0c9aebf4809b822c983023841d77aeb721a53709c666c4",
-    "36seas-site/pricing/index.html": "851e5002432bf9b00805aad4c6d8638af3fb99000abfaf17015ab9485b31d8c8",
+    "36seas-site/pricing/index.html": "06c6fcfbe1e871b383bc70280bab6dd1c80c5d46d9779dc7f29461eddb13e094",
     "36seas-site/pricing/pricing.css": "e02c60e0bde0bcafc425f44b2042be60e36da463d529dd0d90f94639bbe5a89f",
     "36seas-site/privacy/index.html": "d49a75dee284291f7dfb5bd72a372b089b3e29eceb4c7521afc4f1619515fa32",
     "36seas-site/publisher-brand.css": "ec0ce65a9dea07c350d8eac9d349462f02ad68e39fbb3946bbe3bdf04d595043",

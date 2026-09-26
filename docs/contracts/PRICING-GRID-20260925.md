@@ -1,0 +1,2 @@
+# Pricing grid correction
+Owner reports misplaced paid plans and requests full-width free strip with paid plans below. The compatibility anchor #plans inadvertently became a fifth grid item. Move it before the grid; retain #membership-plans, four plan cards, billing behavior, prices, and full-width free band. No business logic or architectural changes. Verify card rows and full-width strip at mobile/tablet/desktop plus annual toggle. Authorized live correction continues release workflow. Rollback: revert to 9aeb853.
