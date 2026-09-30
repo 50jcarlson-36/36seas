@@ -1,0 +1,7 @@
+# First Mate brand alignment — 2026-09-30
+
+Owner authorized correcting the audited branding and pushing live. Authority: supplied first-mate-branding-sheet.pdf. First Mate is two words; full identity is FIRST MATE / AI AUTHOR STUDIO / by 36Seas Publishing. System sans body/logo, Georgia regular display, teal #22D3C5, background #0D1117, surface #121820, foreground #E6EDF3, muted #9BA8B4, border #2A3440. Faceted compass has teal diagonal strokes and no ring.
+
+Scope: public First Mate marketing styles/text/assets, shared application logo CSS, landing display typography, newsletter/transactional/upgrade email presentation and version metadata. Existing typed component interfaces and email rendering inputs/outputs remain valid. Templates retain escaping, token validation, links, consent, suppression, provider behavior, unsubscribe, frequency and retries. No database, authentication, pricing, credits, API or author-work changes. No email sends for verification. Publisher gold identity and approved pricing tier accents remain separate. Existing manuscript/studio behavior and scoped illustrative artwork remain unchanged.
+
+Verification: render desktop/mobile, check canonical tokens and logo, template and worker tests, existing release gates, exact production source and static assets. Deployment requires web release plus scheduled-worker deployment; web readiness alone does not prove worker readiness. Rollback to preceding Git release; no migration or data rollback. Architecture impact: presentation only; no new service or runtime boundary.
