@@ -14,3 +14,6 @@ Owner requested implementation of the agreed SEO blueprint without product drift
 
 ## Search discovery — October 3, 2026
 Owner-authorized metadata and crawler consistency release follows SEARCH-DISCOVERY.md. Preserve approved source, design and private-host indexing boundary. Pricing redirect and duplicate UX Mindset landing are excluded from the canonical sitemap; social metadata and accurate static schemas improve public discovery. No commercial or form changes.
+
+## Catalog author entry — October 3, 2026
+Owner requested an “Add your book” button immediately after Personal development. The catalog toolbar links to the existing First Mate idea-start signup URL (https://app.36seas.com/signup?start=idea). It is navigation, not a category filter or a promise of catalog publication. Preserve four filters, seven books, artwork and existing destinations. Wrap the toolbar on small screens, retain keyboard focus and keep the link available without JavaScript. Scope: books/index.html and scoped catalog toolbar CSS in brand/site.css. Architecture impact: none; no application, data, billing or publishing workflow changes. Verify references/SEO and launch guards; rollback by reverting this change.
