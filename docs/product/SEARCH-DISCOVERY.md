@@ -1,0 +1,7 @@
+# Public discovery release — October 3, 2026
+
+Owner requests latest marketing/application releases and current robots/SEO configuration. Marketing owns public indexing; preserve existing training-bot exclusions, search/AI-search access, private-host boundaries, branding, pricing redirects, forms and complete artwork.
+
+Scope: static head metadata, JSON-LD, canonical sitemap, llms.txt, robots.txt, auxiliary-page indexing headers, and discovery validation. Keep public sitemap entries only when canonical, indexable and served without redirect. UX Mindset's duplicate Volume 04 landing page identifies the book detail URL as canonical; both page URLs remain usable. Pricing keeps its authorized 302 to the app but is excluded from the public sitemap. No false lastmod dates, fabricated ratings/offers, or invented business details. Organization, WebSite, SoftwareApplication and seven Book schemas reflect existing visible content.
+
+Verification: parse metadata and structured data; validate canonical, noindex and redirect exclusions; existing artwork/popup/link checks; live sitemap destinations and assets must return successful responses, missing routes must return 404, and existing pricing redirect must survive. No forms submitted, purchases, database or application behavior changes. Rollback public source to 7301a0f5808aac208b3c16b118e3b6a4dd5b1d03. Architecture impact: none; existing static Pages deployment remains authoritative.

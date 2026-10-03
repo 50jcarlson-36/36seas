@@ -16,3 +16,4 @@ jobs:
           node-version: 24
       - run: node scripts/check-launch-lock.mjs
       - run: node scripts/test-launch-lock.mjs
+      - run: node scripts/check-public-discovery.mjs && node scripts/check-seo.mjs

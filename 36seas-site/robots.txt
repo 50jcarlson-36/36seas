@@ -1,4 +1,5 @@
 # Public marketing site only. Private hosts publish their own deny-all policy.
+# Sitemap contains canonical public pages only; assets remain crawlable for rendering.
 
 User-agent: GPTBot
 User-agent: CCBot

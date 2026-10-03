@@ -11,3 +11,6 @@ Changes require a stated owner decision or a reproduced bug, affected contract, 
 ## Approved semantic content update — September 22, 2026
 
 Owner requested implementation of the agreed SEO blueprint without product drift: clarify homepage and pricing, add public publishing, author-tool, and formatting resources, and update sitemap and llms links. Prices, checkout destinations, artwork, campaign behavior, and private-host exclusions remain governed by the existing contracts. Do not claim guaranteed publication or automatic Amazon submission.
+
+## Search discovery — October 3, 2026
+Owner-authorized metadata and crawler consistency release follows SEARCH-DISCOVERY.md. Preserve approved source, design and private-host indexing boundary. Pricing redirect and duplicate UX Mindset landing are excluded from the canonical sitemap; social metadata and accurate static schemas improve public discovery. No commercial or form changes.
