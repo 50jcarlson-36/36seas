@@ -10,3 +10,6 @@ Run the existing package check plus node scripts/check-launch-lock.mjs and node 
 
 ## September 25 authorized redesign
 Owner explicitly approved the redesigned marketing site, four new restrained invitation concepts, supplied corrected identity, added writing signup, and requested production publication. `MARKETING-REDESIGN-20260925.md` records scope, tests and rollback. On redesigned homepage/pricing, the new invitation renderer supersedes the previous campaign presentation; legacy catalog assets and application campaign system remain intact. The refreshed lock records this authorized baseline.
+
+## Optional GA4 — owner-authorized 2026-10-28
+Owner requested Analytics on 36seas.com and app.36seas.com under 50jcarlson@gmail.com. GOOGLE-ANALYTICS-20261028.md defines the bounded loader, privacy controls and Google CSP destinations, verification and rollback. This authorization permits the corresponding public-page script/style inclusions and reviewed analytics hashes; cover art, pricing, campaigns and operational product scopes remain unchanged.
