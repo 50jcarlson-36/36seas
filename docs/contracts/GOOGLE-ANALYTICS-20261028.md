@@ -1,0 +1,6 @@
+# Owner-requested optional Google Analytics
+Decision: owner requested 36seas.com and app.36seas.com tracking under 50jcarlson@gmail.com on 2026-10-28. The existing 36seas Measurement ID is G-62BX13N2XB.
+Scope: optional analytics loader and styles, consent notices/controls, exact Google CSP destinations, and inclusion on public marketing pages. Book artwork, cover spreads, pricing, campaign catalogs, signup and newsletter functionality remain unchanged. Existing marketing consent choices remain available; analytics authorization is renewed for the named Google service. No marketing/ad tags are enabled.
+Inputs/state: affirmative browser choice, 180-day expiry, exact hostname. DNT/GPC override consent. GA events use static brand/page categories, never contact details, query strings, book-form data or private account identifiers. Advertising storage/personalization and Google signals stay denied.
+Verification: run package checks, loader consent tests, public discovery and SEO checks, plus launch-lock self-tests. Installation and GA event receipt require separate live verification.
+Rollout: Git-connected Cloudflare Pages publication of the bounded commit; retain existing Pages project, DNS, email and app configuration. Rollback is prior marketing source 71d52da. No database or API changes.
