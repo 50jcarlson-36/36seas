@@ -42,9 +42,10 @@ for (const url of urls) {
   const html = pages.get(file);
   if (html && !html.includes(`rel="canonical" href="${url}"`)) errors.push(`Sitemap/canonical mismatch: ${url}`);
 }
+const officialExternal = new Set(['https://www.facebook.com/profile.php?id=61594562601838','https://www.linkedin.com/company/36seas-publishing/','https://www.youtube.com/channel/UCvSWV80lmpbG69pbCh64mZw','https://outvision.com/','https://mowmatter.com/']);
 const llms = readFileSync(resolve(root, 'llms.txt'), 'utf8');
 for (const link of llms.matchAll(/\]\((https?:\/\/[^)]+)\)/g)) {
-  if (new URL(link[1]).origin !== 'https://36seas.com') errors.push(`Non-public llms destination: ${link[1]}`);
+  if (new URL(link[1]).origin !== 'https://36seas.com' && !officialExternal.has(link[1])) errors.push(`Non-public llms destination: ${link[1]}`);
   checkLink(link[1], 'https://36seas.com/', 'llms.txt');
 }
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

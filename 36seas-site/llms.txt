@@ -24,3 +24,14 @@
 - [Crawler policy](https://36seas.com/robots.txt): Search discovery and training crawler directives.
 
 Only public marketing and published book pages are intended for discovery and citation. Author accounts, manuscripts, dashboards, editors, settings, APIs, and staff administration are private. This file describes public content; it does not grant training rights or access to private content.
+
+## Official social channels
+- [Facebook](https://www.facebook.com/profile.php?id=61594562601838)
+- [LinkedIn](https://www.linkedin.com/company/36seas-publishing/)
+- [YouTube](https://www.youtube.com/channel/UCvSWV80lmpbG69pbCh64mZw)
+
+## Related resources
+- [Outvision-It · AI learning](https://outvision.com/)
+- [MowMatter · lawn care business tools](https://mowmatter.com/)
+- [36seas Publishing · books](https://36seas.com/)
+- [First Mate · author studio](https://36seas.com/first-mate/)
