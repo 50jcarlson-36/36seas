@@ -13,3 +13,6 @@ Owner explicitly approved the redesigned marketing site, four new restrained inv
 
 ## Optional GA4 — owner-authorized 2026-10-28
 Owner requested Analytics on 36seas.com and app.36seas.com under 50jcarlson@gmail.com. GOOGLE-ANALYTICS-20261028.md defines the bounded loader, privacy controls and Google CSP destinations, verification and rollback. This authorization permits the corresponding public-page script/style inclusions and reviewed analytics hashes; cover art, pricing, campaigns and operational product scopes remain unchanged.
+
+## November 15 — authorized discovery refresh
+Owner requested official social links, cross-brand linkbacks and current search/AI discovery. SEARCH-DISCOVERY.md records the scoped public footer/schema/llms changes and exact external link validation. This authorizes the corresponding protected marketing hashes; no product, pricing, campaign, artwork or private-host indexing change.
