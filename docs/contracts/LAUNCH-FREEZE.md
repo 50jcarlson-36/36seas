@@ -16,3 +16,6 @@ Owner requested Analytics on 36seas.com and app.36seas.com under 50jcarlson@gmai
 
 ## November 15 — authorized discovery refresh
 Owner requested official social links, cross-brand linkbacks and current search/AI discovery. SEARCH-DISCOVERY.md records the scoped public footer/schema/llms changes and exact external link validation. This authorizes the corresponding protected marketing hashes; no product, pricing, campaign, artwork or private-host indexing change.
+
+## November 23 — owner-authorized book trailer publication
+Owner approved the latest Meat Wagon trailer and requested social publication plus playable trailers in both book pages, including The Ocala Nine. `docs/releases/BOOK-TRAILERS-20261123.md` records exact source files, public video IDs, validation and rollback. The authorized baseline change is limited to those two trailer sections, their scoped player styling, and the YouTube privacy-enhanced frame destination.
